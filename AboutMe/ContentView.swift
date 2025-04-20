@@ -28,7 +28,7 @@ struct ContentView: View {
                         .padding()
                         .background(Rectangle().foregroundColor(Color(red: 1.0, green: 0.8, blue: 0.85)))
                         VStack(alignment: .leading, spacing: 20.0) {
-                            Image("ramen")
+                            Image("me")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .cornerRadius(10)
@@ -77,26 +77,26 @@ struct ContentView: View {
                     Spacer()
                     Text(" my   hobbies")
                         .font(.title2)
-                    HStack{
+                    HStack(spacing: 2){
                         VStack{
                             Image("concert")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 190, height: 170)
-                            Image("painting")
+                                .frame(width: 190, height: 150)
+                            Image("cat")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 190, height: 170)
+                                .frame(width: 200, height: 170)
                         }
                         VStack{
                             Image("chocolate")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 190, height: 170)
+                                .frame(width: 200, height: 170)
                             Image("cooking")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 190, height: 170)
+                                .frame(width: 190, height: 150)
                         }
                         
                        
